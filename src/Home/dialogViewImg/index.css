@@ -1,0 +1,54 @@
+
+
+
+
+
+.imgViewDialog{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: none;
+}
+
+
+.imgViewFrame{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgViewHead{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: auto;
+    height: 50px;
+    width: 60px;
+    background: none;
+
+}
+.imgViewDiv{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    
+
+}
+
+.imgViewImg{
+    position: relative;
+    width: auto;
+    height: auto;
+    max-height: calc(100vh - 100px);
+    max-width: 80vw;
+
+
+}

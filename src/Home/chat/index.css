@@ -1,0 +1,147 @@
+
+
+
+.ChatverlaufCon{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.chatContainer{
+    width: 100%;
+    height: 100%;
+}
+
+
+.chatroomContainer{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* eingabe_____________*/
+.chatEingabe{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background: none;
+    border-top: 1px solid rgb(209, 209, 209);
+
+}
+
+.chatInput{
+    outline: none;
+    resize: none;
+    border: none;
+    width: 80%;
+    height: auto;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    margin-left: 0.6em;
+    font-size: 1em;
+    border-bottom-left-radius: 12px;
+    background: rgb(248, 248, 248);
+    font-family: Tahoma, Verdana, Segoe, sans-serif; 
+
+}
+
+.chatBtn{
+    width: 20%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: rgba(98, 102, 104, 0.5);
+    font-weight: bold;
+    background: none;
+    margin: 0 auto;
+}
+
+.chatBtn:hover{
+    cursor: pointer;
+    color: rgb(136, 115, 175);
+    
+
+}
+
+.chatView{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border: 3px solid black;
+
+}
+.chatVerlauf{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    scroll-snap-align: start;
+    
+}
+
+
+
+
+
+
+/* head    */
+.chathead{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+
+}
+.chatheadName{
+    width: 100%;
+    font-size: 1em;
+    float: left;
+
+}
+.chatHeadImgDiv{
+    position: relative;
+    height: 37px;
+    width: 58px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+.chatheadBtn{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(139, 139, 139);
+
+}
+.chatheadBtn:hover{
+    cursor: pointer;
+    color: black;
+
+}

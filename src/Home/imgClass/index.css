@@ -1,0 +1,198 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ImgSizeDialog{
+    position: absolute;
+    max-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.imgSizeFrame{
+  position: relative;
+  width: 50vw;
+  height: 70vh;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: 6%;
+  background: rgba(200, 200, 200, 0.376);
+
+}
+
+
+
+
+
+
+
+
+.imgSizeHeadDiv{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  background: none;
+}
+.imgSizeHeadDivReturnBtn{
+  position: relative;
+  right: 18px;
+  top: 4px;
+  border: none;
+  background: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  background: rgba(136, 115, 175, 0.479);
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  margin-top: 1%;
+}
+.imgSizeHeadDivReturnBtn:hover{
+  cursor: pointer;
+  background: rgb(136, 115, 175);
+}
+.buttonAuswahlConImgSize {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  .crop-container {
+    position: relative;
+    height: 25em;
+    max-height: 25em;
+    overflow: hidden;
+  }
+  .crop{
+    background: rgb(136, 115, 175);
+  }
+  
+  .controls {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+ 
+  .buttonAuswahl{
+      margin-top: 20px;
+      border: none;
+      background: none;
+      outline: none;
+      height: 50px;
+      width: 180px;
+      font-size: 25px;
+      color: white;
+      border-radius: 13px;
+      background: rgba(136, 115, 175, 0.472);
+  }
+
+  .buttonAuswahl:hover{
+    background: rgb(136, 115, 175);
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* outside class   .........*/
+.ggg{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}  
+
+.picPos{
+  align-items: center;
+  /* größe vom Bild anpassen*/
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  background: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+    
+
+    
+}
+.hidden{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  z-index: 10;
+  left: 0px;
+  background: none;
+}
+.hidden:hover{
+  cursor: pointer;
+}
+
+.fakefile {
+    z-index: 3;
+    width: 100%;
+    height: 100%; 
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(139, 139, 139);
+}
+.fakefile:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.heicSpinner{
+  position: relative;
+  height: 100%;
+  margin-top: 66%;
+}
+
+
+
+
+
+

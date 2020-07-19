@@ -1,0 +1,140 @@
+
+
+body{
+    background: rgb(238, 238, 238);
+    font-family: Tahoma, Verdana, Segoe, sans-serif;   
+}
+
+/*
+
+rgb(78, 189, 165);
+
+*/
+
+.homeScreem{
+    width: 100vw;
+    height: 100vh;
+    background: none;
+    overflow: hidden;
+}
+
+.topbarDivHome{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid rgba(216, 216, 216, 0.267);
+    background: white;
+}
+
+.loginFrame{
+    height: 500px;
+    width: 400px;
+    background: white;
+    border: none;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-top: 10%;
+    box-shadow: 3px 3px rgba(216, 216, 216, 0.267);
+}
+
+
+.loginframeDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.regisDivSwitch{
+    width: 100%;
+    height: 100%;
+
+}
+.loginframeTxt1{
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 30px;
+    margin-top: 1%;
+}
+.loginframeTxt2{
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.loginframeTxt3{
+    width: auto;
+    height: auto;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 2%;
+}
+.placeholderDiv{
+    width: 100%;
+    height: 30px;
+}
+.placeholderDivHalf{
+    width: 100%;
+    height: 15px;
+}
+
+.loginInputDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.loginInput{
+    width: 70%;
+    height: 40px;
+    background: rgb(214, 214, 214);
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    font-size: 1.6em;
+    color: rgb(136, 115, 175);
+}
+.loginInput::placeholder {
+    color: rgb(141, 141, 141);
+    font-size: 20px;
+    text-align: center;
+  }
+.loginBtn{
+    width: 70%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: rgb(136, 115, 175);
+    margin: 0 ;
+    font-size: 25px;
+    color: white;
+    border-radius: 13px;
+    margin-top: 30px;
+}
+.loginBtn:hover{
+    cursor: pointer;
+}
+
+.regesBtn{
+    width: auto;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 0 ;
+    font-size: 20px;
+    color: rgb(136, 115, 175);
+    background: none;
+    margin-top: 20px;
+
+
+}
+.regesBtn:hover{
+    cursor: pointer;
+    border-bottom: 1px solid rgb(136, 115, 175);
+}

@@ -1,0 +1,246 @@
+
+
+
+
+
+
+
+
+.chatFrame{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 113px);
+    background: none;
+
+}
+
+
+
+
+
+/* Liste chat */
+.chatList{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom; 
+    margin-top: 1em;
+    padding-bottom: -2em;
+}
+
+
+
+.chatValue{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+
+}
+
+.chatListVerlauf{
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    overflow: scroll;
+    overflow: -moz-scrollbars-none;
+}
+.chatListVerlauf::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+.chatMessage{
+    display: flex;
+    flex-direction: column;
+
+}
+.imgViewBtn{
+    position: relative;
+    border: none;
+    outline: none;
+    background: none;
+}
+.imgViewBtn:hover{
+    cursor: pointer;
+}
+
+.heicSpinnerChat{
+    display: flex;
+    height: 220px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/* User-------------------*/
+.chatinList{
+    position: relative;
+    width: 97%;
+    margin-left: 1%;
+    height: 100%;
+    display: flex;
+    margin: 0.3em auto;  
+    
+}
+
+.chatUser{
+    height: auto;
+    position: relative;
+    display: block;
+    justify-content: center;
+    padding-right: 1em;
+    padding-left: 1.3em;
+}
+
+.chatProfilImg{
+    height: 3em;
+    border-radius: 50%;
+}
+.chatName{
+    height: 100%;
+    color: grey;
+    font-size: 1em;
+    font-weight: bold; 
+    align-items: center;
+}
+
+.chatblase{
+    position: relative;
+    min-width: 6em;
+    max-width: 94%;
+    height: auto;
+    border: none;
+    padding-bottom: 1em;
+    border-radius: 0.8em;
+    background: rgba(207, 136, 136, 0.301);
+    word-wrap: break-word;
+    white-space: pre;
+    
+}
+
+.chatMessageBlase{
+    width: auto;
+    max-width: 94%;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: left;
+    outline: none;
+    resize: none;
+    border: none;
+    background: none;
+    padding-top: 0.6em;
+    font-size: 1em;
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+    white-space: pre;
+    break-inside: auto;
+    white-space: pre-line;
+}
+.imgBlase{
+    width: auto;
+    height: auto;
+    max-height: 220px;
+    max-width: calc(100% + 0.5em);
+    border-top-right-radius: 0.8em;
+    border-top-left-radius: 0.8em;
+
+}
+.imgBlase:hover{
+    cursor: pointer;
+
+}
+
+.chatdate{
+    position: absolute;
+    left: 1.1em;
+    bottom: 0.1em;
+    font-size: 0.7em;
+    color: rgb(126, 126, 126);
+}
+
+
+/*_____________________________*/
+
+
+
+
+/* chat user-------------------*/
+.chatinListChatUser{
+    position: relative;
+    width: 97%;
+    height: auto;
+    display: flex;
+    margin: 0.3em auto;  
+    justify-content: flex-end;
+    
+}
+
+.chatUserChatUser{
+    height: auto;
+    position: relative;
+    display: block;
+    justify-content: center;
+    padding-right: 1em;
+    padding-left: 1.3em;
+}
+
+.chatblaseChatUser{
+    position: relative;
+    min-width: 6em;
+    max-width: 94%;
+    text-align: left;
+    height: auto;
+    border: none;
+    padding-bottom: 1em;
+    border-radius: 0.8em;
+    background: rgba(94, 140, 155, 0.582);
+    white-space: pre;
+    
+}
+
+.chatMessageBlaseChatUser{
+    width: auto;
+    max-width: 94%;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    outline: none;
+    resize: none;
+    border: none;
+    background: none;
+    padding-top: 0.6em;
+    font-size: 1em;
+    color: black;
+    margin-left: 0.8em;
+    margin-right: 0.5em;
+    word-wrap: break-word;
+    break-inside: auto;
+    white-space: pre-line;
+}
+
+.imgBlaseChatUser{
+    width: auto;
+    height: auto;
+    max-height: 320px;
+    max-width: calc(100% );
+    border-top-right-radius: 0.8em;
+    border-top-left-radius: 0.8em;
+}
+.imgBlaseChatUser:hover{
+    cursor: pointer;
+}
+.chatdateChatUser{
+    position: absolute;
+    right: 1.1em;
+    bottom: 0.1em;
+    font-size: 0.7em;
+    color: rgb(126, 126, 126);
+}
+
+
+
+
+
+
+
+
