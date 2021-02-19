@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7fe485a6a37d3ba865021db2772a7c9",
+    "revision": "e18d349a5561d546d376979a8d45ba69",
     "url": "/archa.com/index.html"
   },
   {
-    "revision": "356feef3d3986611325e",
+    "revision": "9daadd6c600f1f86c4ca",
     "url": "/archa.com/static/css/main.6b16dcbe.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/archa.com/static/js/2.a6328f52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "356feef3d3986611325e",
-    "url": "/archa.com/static/js/main.6479aa47.chunk.js"
+    "revision": "9daadd6c600f1f86c4ca",
+    "url": "/archa.com/static/js/main.4320e93a.chunk.js"
   },
   {
     "revision": "07a571648d68f95c10a8",
