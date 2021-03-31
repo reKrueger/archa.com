@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/archa.com/static/css/main.45f33aa1.chunk.css",
-    "main.js": "/archa.com/static/js/main.eba70303.chunk.js",
-    "main.js.map": "/archa.com/static/js/main.eba70303.chunk.js.map",
+    "main.css": "/archa.com/static/css/main.7d143213.chunk.css",
+    "main.js": "/archa.com/static/js/main.2bdc0744.chunk.js",
+    "main.js.map": "/archa.com/static/js/main.2bdc0744.chunk.js.map",
     "runtime-main.js": "/archa.com/static/js/runtime-main.47f502f5.js",
     "runtime-main.js.map": "/archa.com/static/js/runtime-main.47f502f5.js.map",
     "static/js/2.d24e191d.chunk.js": "/archa.com/static/js/2.d24e191d.chunk.js",
     "static/js/2.d24e191d.chunk.js.map": "/archa.com/static/js/2.d24e191d.chunk.js.map",
     "index.html": "/archa.com/index.html",
-    "precache-manifest.a5c70f8e325401f9709128767b9cebd9.js": "/archa.com/precache-manifest.a5c70f8e325401f9709128767b9cebd9.js",
+    "precache-manifest.a5290f614b6f18beeef18e6af1137291.js": "/archa.com/precache-manifest.a5290f614b6f18beeef18e6af1137291.js",
     "service-worker.js": "/archa.com/service-worker.js",
-    "static/css/main.45f33aa1.chunk.css.map": "/archa.com/static/css/main.45f33aa1.chunk.css.map",
+    "static/css/main.7d143213.chunk.css.map": "/archa.com/static/css/main.7d143213.chunk.css.map",
     "static/js/2.d24e191d.chunk.js.LICENSE.txt": "/archa.com/static/js/2.d24e191d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.47f502f5.js",
     "static/js/2.d24e191d.chunk.js",
-    "static/css/main.45f33aa1.chunk.css",
-    "static/js/main.eba70303.chunk.js"
+    "static/css/main.7d143213.chunk.css",
+    "static/js/main.2bdc0744.chunk.js"
   ]
 }
