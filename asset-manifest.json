@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/archa.com/static/css/main.91d1db82.chunk.css",
-    "main.js": "/archa.com/static/js/main.ac171b1f.chunk.js",
-    "main.js.map": "/archa.com/static/js/main.ac171b1f.chunk.js.map",
+    "main.js": "/archa.com/static/js/main.8d10bbc1.chunk.js",
+    "main.js.map": "/archa.com/static/js/main.8d10bbc1.chunk.js.map",
     "runtime-main.js": "/archa.com/static/js/runtime-main.47f502f5.js",
     "runtime-main.js.map": "/archa.com/static/js/runtime-main.47f502f5.js.map",
     "static/js/2.3c604588.chunk.js": "/archa.com/static/js/2.3c604588.chunk.js",
     "static/js/2.3c604588.chunk.js.map": "/archa.com/static/js/2.3c604588.chunk.js.map",
     "index.html": "/archa.com/index.html",
-    "precache-manifest.b0c3cbf5c520659e6554e5d6615ddf42.js": "/archa.com/precache-manifest.b0c3cbf5c520659e6554e5d6615ddf42.js",
+    "precache-manifest.8391c3e0844e89df0f56cee6d88a12cb.js": "/archa.com/precache-manifest.8391c3e0844e89df0f56cee6d88a12cb.js",
     "service-worker.js": "/archa.com/service-worker.js",
     "static/css/main.91d1db82.chunk.css.map": "/archa.com/static/css/main.91d1db82.chunk.css.map",
     "static/js/2.3c604588.chunk.js.LICENSE.txt": "/archa.com/static/js/2.3c604588.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.47f502f5.js",
     "static/js/2.3c604588.chunk.js",
     "static/css/main.91d1db82.chunk.css",
-    "static/js/main.ac171b1f.chunk.js"
+    "static/js/main.8d10bbc1.chunk.js"
   ]
 }
