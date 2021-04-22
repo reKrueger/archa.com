@@ -39,13 +39,16 @@ function openPushNotification(event) {
 
 // This allows the web app to trigger skipWaiting via
 // registration.waiting.postMessage({type: 'SKIP_WAITING'})
+/*
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
     self.skipWaiting();
   }
 });
-//self.addEventListener("push", receivePushNotification);
-//self.addEventListener("notificationclick", openPushNotification);
+*/
+self.addEventListener("push", receivePushNotification);
+self.addEventListener("notificationclick", openPushNotification);
+/*
 self.addEventListener('push', function(event) {
   var message = JSON.parse(event.data.text()); //
   event.waitUntil(
@@ -54,4 +57,5 @@ self.addEventListener('push', function(event) {
     })
   );
 });
+*/
 // Any other custom service worker logic can go here.
