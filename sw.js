@@ -22,8 +22,8 @@ function receivePushNotification(event) {
     vibrate: [200, 100, 200],
     tag: tag,
     image: image,
-    //badge: "https://spyna.it/icons/favicon.ico",
-    actions: [{ action: "Detail", title: "View" }]
+    badge: "https://rekrueger.github.io/archa.com/favicon.ico",
+    actions: [{ action: "Detail", title: "View", icon: "https://rekrueger.github.io/archa.com/favicon.ico" }]
   };
   event.waitUntil(self.registration.showNotification(title, {
     body: body
