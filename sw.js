@@ -13,21 +13,16 @@ function receivePushNotification(event) {
   console.log("[Service Worker] Push Received.");
   console.log(event);
 
-  const { image, tag, url, title, text, body } = event.data.json();
+  const { image, url, title, text, body } = event.data.json();
 
   const options = {
-    data: url,
     body: text,
-    icon: image,
+    icon: "https://rekrueger.github.io/archa.com/favicon.ico",
     vibrate: [200, 100, 200],
-    tag: tag,
     image: image,
-    badge: "https://rekrueger.github.io/archa.com/favicon.ico",
     actions: [{ action: "Detail", title: "View", icon: "https://rekrueger.github.io/archa.com/favicon.ico" }]
   };
-  event.waitUntil(self.registration.showNotification(title, {
-    body: body
-  }));
+  event.waitUntil(self.registration.showNotification(title, options));
 }
 
 function openPushNotification(event) {
